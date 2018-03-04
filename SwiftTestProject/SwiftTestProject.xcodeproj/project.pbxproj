@@ -14,6 +14,8 @@
 		30DB75B9204BD40700339507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB75B7204BD40700339507 /* LaunchScreen.storyboard */; };
 		30DB75C4204BD40700339507 /* SwiftTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB75C3204BD40700339507 /* SwiftTestProjectTests.swift */; };
 		30DB75CF204BD40700339507 /* SwiftTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB75CE204BD40700339507 /* SwiftTestProjectUITests.swift */; };
+		30DB75DE204BE72E00339507 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB75DC204BE72E00339507 /* AddViewController.swift */; };
+		30DB75DF204BE72E00339507 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DB75DD204BE72E00339507 /* AddViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		30DB75CA204BD40700339507 /* SwiftTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DB75CE204BD40700339507 /* SwiftTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestProjectUITests.swift; sourceTree = "<group>"; };
 		30DB75D0204BD40700339507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DB75DC204BE72E00339507 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		30DB75DD204BE72E00339507 /* AddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				30DB75AE204BD40700339507 /* AppDelegate.swift */,
 				30DB75B0204BD40700339507 /* ViewController.swift */,
 				30DB75B2204BD40700339507 /* Main.storyboard */,
+				30DB75DC204BE72E00339507 /* AddViewController.swift */,
+				30DB75DD204BE72E00339507 /* AddViewController.xib */,
 				30DB75B5204BD40700339507 /* Assets.xcassets */,
 				30DB75B7204BD40700339507 /* LaunchScreen.storyboard */,
 				30DB75BA204BD40700339507 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				30DB75B9204BD40700339507 /* LaunchScreen.storyboard in Resources */,
 				30DB75B6204BD40700339507 /* Assets.xcassets in Resources */,
+				30DB75DF204BE72E00339507 /* AddViewController.xib in Resources */,
 				30DB75B4204BD40700339507 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				30DB75B1204BD40700339507 /* ViewController.swift in Sources */,
 				30DB75AF204BD40700339507 /* AppDelegate.swift in Sources */,
+				30DB75DE204BE72E00339507 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
