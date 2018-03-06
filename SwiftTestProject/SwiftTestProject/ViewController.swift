@@ -25,6 +25,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         listArray = UserDefaults.standard.object(forKey: "list") as? Array<Any>
+        if listArray == nil {
+            listArray =  Array()
+        }
         tableView.reloadData()
     }
     
